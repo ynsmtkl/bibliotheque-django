@@ -1,0 +1,39 @@
+{
+  "menu": [
+    {
+      "url": "index",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "name": "Dashboard",
+      "slug": "index"
+    },
+    {
+      "url": "page-2",
+      "icon": "menu-icon tf-icons mdi mdi-book-open",
+      "name": "Livres",
+      "slug": "livres",
+      "badge": [
+        "primary",
+        "5"
+      ],
+      "submenu": [
+        {
+          "url": "page-2",
+          "name": "List",
+          "slug": "list"
+        }
+      ]
+    },{
+    "url": "_blank",
+    "icon": "menu-icon tf-icons mdi mdi-laptop",
+      "name": "Prets",
+      "slug": "prets",
+      "submenu": [
+        {
+          "url": "list-prets",
+          "name": "List Prets",
+          "slug": "list-prets"
+        }
+      ]
+    }
+  ]
+}
